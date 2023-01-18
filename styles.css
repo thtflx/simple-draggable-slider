@@ -14,9 +14,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+    /* width: 600px; */
     height: 300px;
     overflow: hidden;
     cursor: grab;
+    /* padding: 50px; */
+    border: 2px solid rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
 }
 
 .slider {
@@ -26,7 +30,7 @@ body {
     width: auto;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     /*we have 10 imgs so repeat 10 times 1 fr*/
     column-gap: 2rem;
     pointer-events: none;
